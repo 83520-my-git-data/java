@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;ConvertIntegerNumber&apos; to &apos;Convert_Integer_Number&apos;&#x0A;- Original element: &apos;ConvertIntegerNumber&apos;&#x0A;- Renamed element: &apos;ConvertIntegerNumber&apos;&#x0A;- Update references to refactored element" description="Rename Java project &apos;ConvertIntegerNumber&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=ConvertIntegerNumber" name="Convert_Integer_Number" references="true" stamp="1712067644337" version="1.0"/>
+</session>

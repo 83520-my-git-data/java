@@ -1,0 +1,65 @@
+!SESSION 2024-04-02 19:47:23.866 -----------------------------------------------
+eclipse.buildId=4.22.0.202403071427
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 /home/sunbeam/Desktop/STS
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4 /home/sunbeam/Desktop/STS -data /home/sunbeam/daily-java-lab/assignment01
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-02 19:47:25.929
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-02 19:47:26.195
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-02 19:47:27.106
+!MESSAGE Logback config file: /home/sunbeam/daily-java-lab/assignment01/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-04-02 19:47:27.417
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-02 19:47:27.417
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-04-02 19:47:27.714
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-02 19:47:27.714
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 19:49:41.430
+!MESSAGE Classpath changed for project: ConvertIntegerNumber
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 19:50:44.331
+!MESSAGE Classpath changed for project: ConvertIntegerNumber
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 19:50:44.334
+!MESSAGE Classpath changed for project: Convert_Integer_Number
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-02 19:52:06.315
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/home/sunbeam/Downloads/sts-4.22.0.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.10.v20240120-1143/jre/bin/java
+-cp
+/home/sunbeam/Downloads/sts-4.22.0.RELEASE/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/classes:/home/sunbeam/Downloads/sts-4.22.0.RELEASE/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/home/sunbeam/Downloads/sts-4.22.0.RELEASE/plugins/org.springframework.tooling.boot.ls_1.53.0.202403071323/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/sunbeam/daily-java-lab/assignment01/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1712067726314
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 19:52:06.316
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-02 19:52:06.321
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 66037
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 19:54:13.443
+!MESSAGE Classpath changed for project: Check_double_and_calculate_avg
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-02 22:02:01.683
+!MESSAGE Classpath changed for project: Food_menu_and_total_bill

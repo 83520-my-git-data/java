@@ -1,0 +1,54 @@
+import java.util.Scanner;
+
+public class Check_double_Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+
+			Scanner sc = new Scanner(System.in);
+				
+			double num1,num2, avg;
+				
+			System.out.println("Enter 1st double number : ");
+			
+				
+			if(sc.hasNextDouble())				
+			{
+				num1 = sc.nextDouble();
+					
+					
+				System.out.println("Enter 2nd Double number : ");	
+					
+					
+				if(sc.hasNextDouble())
+				{
+					num2 = sc.nextDouble();
+						
+					avg = (num1+num2)/2;
+						
+					System.out.println("Average : "+avg);
+						
+					}else
+					{
+						System.out.println("Num2 is Not double");
+					}
+					
+				}
+				else
+				{
+					System.out.println("Num1 is Not double");
+				}
+			
+			
+				sc.close();
+
+			}
+
+	
+		
+
+	}
+
+}

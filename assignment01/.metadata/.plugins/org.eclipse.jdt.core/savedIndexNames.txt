@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+/home/sunbeam/daily-java-lab/assignment01/.metadata/.plugins/org.eclipse.jdt.core
+3323789543.index
+3394344589.index
+1219663239.index
+1865797976.index
