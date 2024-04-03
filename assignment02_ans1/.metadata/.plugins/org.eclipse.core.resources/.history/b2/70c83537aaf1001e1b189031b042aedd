@@ -1,0 +1,34 @@
+package com.sunbeam.Invoice;
+
+public class Invoice {
+	
+	private	String partNumber;
+	private	String partDescription;
+	private	int quantity;
+	private	double price;
+
+	public Invoice()
+	{
+		partNumber = "";
+		partDescription = "";
+		quantity = 0;
+		price = 0.0;
+	}
+	
+	public void setQuantity(int quantity)
+	{
+		if(quantity<0)
+		{
+			this.quantity = 0;
+		}else {
+			this.quantity = quantity;
+		}
+	}
+	
+	double calculateInvoice()
+	{
+		return price*quantity;
+	}
+	
+
+}
