@@ -11,7 +11,11 @@ public class TestPointArray1 {
 		
 		Scanner sc = new Scanner (System.in);
 		
-		Point2D[] points = new Point2D[4];
+		int count;
+		System.out.println("Enter no. of Points to be accepted: ");
+		count = sc.nextInt();
+		
+		Point2D[] points = new Point2D[count];
 		
 		
 		
@@ -73,13 +77,17 @@ public class TestPointArray1 {
 			
 				
 			case 3:
-				for(int i=0; i<points.length; i++)
-				{
-					System.out.println("Point at index " + i + " is : " + points[i].getDetails() );
-					System.out.println("____________________");
-				}
-				break;
+//				for(int i=0; i<points.length; i++)
+//				{
+//					System.out.println("Point at index " + i + " is : " + points[i].getDetails() );
+//					System.out.println("____________________");
+//				}
+//				break;
 				
+				for(Point2D pi : points)
+					System.out.println("Point : " + pi.getDetails());
+				System.out.println("____________________");
+				break;
 				
 				
 				
