@@ -292,8 +292,11 @@ public class Program01 {
 			
 			
 			
-		}while(caseMenu(fruitChoice)!= 0);
- 
+		}while(caseMenu.values()[0] != null);
+		
+		
+		sc.close();
 	}
+	
 
 }
